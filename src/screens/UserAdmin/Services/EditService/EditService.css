@@ -1,0 +1,29 @@
+.edit-service-uploadimage{
+    background: var(--secondary);
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.edit-service-uploadimage input[type="file"]{
+    display: none !important;
+}
+
+.edit-service-uploadimage .edit-service-uploadimage-icon{
+    color: var(--skyblue);
+}
+
+.promo-images .delete-img{
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 18px;
+    top: 0%;
+    cursor: pointer;
+}

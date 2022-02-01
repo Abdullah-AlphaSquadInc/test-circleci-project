@@ -1,0 +1,14 @@
+.business-detail-buttons{
+    text-align: right !important;
+    width: auto;
+}
+
+.business-detail-buttons button:nth-child(1){
+    background: var(--skyblue) !important;
+    color: var(--black) !important;
+    margin-right: 15px !important;
+}
+
+.business-detail-buttons button:nth-child(2){
+    background: var(--carmine) !important;
+}

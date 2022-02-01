@@ -1,0 +1,13 @@
+.profile-info-button button:nth-child(1){
+    margin-right: 15px !important;
+}
+
+.add-business-logo-icon{
+    color: var(--skyblue);
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid var(--skyblue);
+    border-radius: 50%;
+    padding: 4px;
+}

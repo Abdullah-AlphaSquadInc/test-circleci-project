@@ -1,0 +1,16 @@
+$theme-colors: (
+  'primary': #232534,
+  'secondary': #323446,
+  'lightSecondary': #4f536b,
+  'white': #ffffff,
+  'black': #000000,
+  'skyblue': #2BE5FE,
+  'grey': #f1f1f1,
+  'carmine': #D70040,
+  'greyDark': #C8C8C8,
+  'greenShade': #00D100,
+  'orange': #FFA500,
+  'chatList': #232534
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap';

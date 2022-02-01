@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+html {
+  font-size: 100%;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+h1,
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+
+
+.app-flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+}
+
+.app-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.cursor-pointer-sort {
+  cursor: pointer;
+}
+
+.close-icon{
+  color: var(--white);
+  font-size: 18px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.two-column-layout-right{
+  background: var(--lightSecondary) !important;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.two-column-layout-right-img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  transition: all 0.4s;
+  background: var(--primary);
+}
+
+.contents-container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.close-details{
+  position: absolute;
+  color: var(--black);
+  font-size: 16px;
+  right: -10px;
+  top: -10px;
+  cursor: pointer;
+}

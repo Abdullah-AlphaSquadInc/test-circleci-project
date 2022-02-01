@@ -1,0 +1,12 @@
+.send-message{}
+
+.send-message .send-message-input{
+    border-radius: 50px;
+    color: var(--white);
+    padding: 9px 22px;
+    width: 92%;
+    background: transparent;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 14px;
+}

@@ -1,0 +1,34 @@
+.login-page{
+    background: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-white-heading{
+    color: var(--white);
+    font-size: 15px;
+    width: 100%;
+}
+
+.login-page .forgot-password{
+    background: none;
+    padding: none;
+    color: var(--skyblue);
+    border: none;
+    text-decoration: underline;
+}
+
+.login-page .login-button{
+    background: var(--skyblue);
+    text-transform: uppercase;
+    color: var(--black);
+    margin-top: 25px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}

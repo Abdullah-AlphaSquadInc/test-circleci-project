@@ -1,0 +1,33 @@
+.edit-del-icon{
+    font-size: 24px;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.add-icon{
+    border-radius: 50%;
+    font-size: 22px;
+    color: var(--skyblue);
+    cursor: pointer;
+}
+
+.edit-del-icon:nth-child(1){
+    background: gray;
+}
+
+.edit-del-icon:nth-child(2){
+    background: red;
+}
+
+.edit-del-icon-witheye{
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--skyblue);
+}
+
+.edit-del-icon-witheye:nth-child(3){
+    color: red;
+}

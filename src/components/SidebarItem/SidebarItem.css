@@ -1,0 +1,37 @@
+.nav-item{
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    line-height: 10px;
+    padding-bottom: 0px;
+    opacity: .8;
+    position: relative;
+    transition: all .4s;
+    font-weight: 400;
+}
+
+.nav-item:hover{
+    color: white !important;
+    text-decoration: none;
+}
+
+.active-nav-item{
+    position: relative;
+    opacity: 1;
+    transition: all .5s;
+    background: var(--skyblue);
+    color: black !important;
+    font-weight: 600;
+}
+
+.active-nav-item:hover{
+    color: black !important;
+}
+
+.sidebar-arrow-icon{
+    position: absolute;
+    z-index: 2;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+}

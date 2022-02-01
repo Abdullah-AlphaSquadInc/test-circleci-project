@@ -1,0 +1,95 @@
+/* top buttons showing */
+
+.top-detail-buttons button{
+    border-radius: 0px !important;
+}
+
+.top-detail-button1-active button:nth-child(1){
+    color: var(--black) !important;
+    background: var(--skyblue);
+}
+
+.top-detail-button2-active button:nth-child(2){
+    color: var(--black);
+    background: var(--skyblue);
+    color: var(--black) !important;
+}
+
+.top-detail-button3-active button:nth-child(3){
+    color: var(--black);
+    background: var(--skyblue);
+    color: var(--black) !important;
+}
+
+input[type="checkbox"]{
+    background: transparent !important;
+}
+
+.children-container{
+    height: 92vh !important;
+    width: 100%;
+    background-color: var(--secondary);
+    padding: 25px 25px 25px 25px;
+}
+
+.gr-addressloc-icon{
+    position: absolute;
+    z-index: 2;
+    color: var(--skyblue);
+    font-size: 22px;
+    right: 10px;
+    top: 9px;
+}
+
+.textarea-size{
+    resize: none !important;
+    height: 160px;
+}
+
+.width-flex-adjustment{
+    width: 48% !important;
+}
+
+/* business acount top buttons class */
+
+.account-request-buttons button:nth-child(1){
+    background: var(--skyblue);
+    color: var(--black) !important;
+    margin-right: 15px !important;
+}
+
+.account-request-buttons button:nth-child(2){
+    background: var(--carmine);
+    color: var(--white) !important;
+}
+
+/* dropdowns */
+
+#dropdown-item-button{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    background: var(--secondary) !important;
+    border-radius: 8px !important;
+    padding: 8px 10px 8px 10px !important;
+    border: none !important;
+    outline: none !important;
+  }
+  
+#dropdown-item-button::after{
+    margin-top: 10px !important;
+}
+
+.dropdown-menu{
+    width: 100% !important;
+    padding: 0px !important;
+    background: whitesmoke !important;
+    max-height: 210px;
+    overflow-y: auto;
+}
+
+.dropdown-Button-with-preference{
+    width: 85% !important;
+    padding-left: 30px;
+}

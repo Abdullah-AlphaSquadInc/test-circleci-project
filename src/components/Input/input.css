@@ -1,0 +1,19 @@
+.custom-input-field{
+    color: var(--white);
+    background: var(--lightSecondary);
+    border-radius: 7px;
+    padding: 9px 12px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+
+.custom-input-field::placeholder{
+    color: var(--white);
+    font-size: 15px;
+}
+
+.custom-input-field:active, .custom-input-field:focus{
+    outline: none;
+    border: none;
+}

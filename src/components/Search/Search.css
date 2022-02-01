@@ -1,0 +1,14 @@
+.search-field{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 8px 15px;
+    font-size: 15px;
+}
+
+.search-field-icon{
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    color: lightgrey;
+    font-size: 20px;
+}

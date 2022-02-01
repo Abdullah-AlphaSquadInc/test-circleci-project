@@ -1,0 +1,8 @@
+.layout-container{
+    width: 100% !important;
+    height: 85vh;
+    overflow-y: auto;
+    background: var(--lightSecondary);
+    padding: 15px;
+    border-radius: 4px;
+}

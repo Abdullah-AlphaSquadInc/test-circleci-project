@@ -1,0 +1,23 @@
+.list-item{
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+    color: var(--white) !important;
+    margin-bottom: 6px;
+}   
+
+.list-item .lift-ban{
+    border-radius: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: var(--skyblue);
+    color: var(--black);
+    font-weight: 500;
+}
+
+.list-item .avatar-bg-change{
+    padding: 2px;
+    background: var(--skyblue);
+    border-radius: 50%;
+    height: 54px;
+}

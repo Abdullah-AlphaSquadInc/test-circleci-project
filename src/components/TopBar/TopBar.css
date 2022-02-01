@@ -1,0 +1,13 @@
+.top-bar{
+    background: var(--primary);
+    color: var(--white) !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    height: 8vh !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}

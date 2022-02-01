@@ -1,0 +1,14 @@
+.report-detail .report-detail-buttons{
+    position: absolute;
+    justify-content: flex-end;
+    right: 30px;
+    width: 50%;
+}
+
+.report-detail .report-detail-buttons button{
+    background: var(--carmine) !important;
+}
+
+.report-detail .report-detail-buttons button:nth-child(1){
+    margin-right: 15px !important;
+}
